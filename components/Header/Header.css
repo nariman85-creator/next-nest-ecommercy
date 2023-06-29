@@ -1,0 +1,128 @@
+.header {
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+.header-top {
+  display: flex;
+  padding-top: 25px;
+  color: white;
+}
+.header-top > *:last-child {
+  margin-left: auto;
+}
+.header-content__item:nth-child(2) {
+  margin-left: auto;
+}
+.user-tools__list > *:not(:last-child) {
+  margin-right: 15px;
+}
+.user-tools__list {
+  align-items: center;
+  justify-content: center;
+}
+.user-tools__item:nth-child(1) {
+  margin-right: 30px;
+}
+.user-tools__item:nth-child(2) {
+  margin-right: 30px;
+}
+.wrap-collapsed--item {
+  flex-direction: column;
+}
+.collapsed--text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+
+.collapsed-item {
+}
+.user-tools__item--lang {
+  position: absolute;
+  top: 22px;
+}
+
+.user-tools__item--monetary > * {
+  text-transform: uppercase;
+}
+.down--icon {
+  cursor: pointer;
+}
+.tools-item {
+  align-items: center;
+  justify-content: space-between;
+}
+.lang-text {
+  width: 55px;
+  margin-right: 10px;
+}
+.money-text {
+  margin-right: 10px;
+  width: 28px;
+}
+.collapsed--icon {
+  right: -15px;
+  top: 50%;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+.collapsed--icon.flip {
+  transform: rotateZ(180deg);
+  transition: transform 0.4s;
+}
+
+.like-icon {
+  background-image: url("../../public/image/svg/heart.svg");
+  display: inline-flex;
+  width: 23px;
+  height: 23px;
+}
+.logIn-icon {
+  background-image: url("../../public/image/svg/user.svg");
+  display: inline-flex;
+  width: 23px;
+  height: 23px;
+}
+.not-icon {
+  background-image: url("../../public/image/svg/not.svg");
+  display: inline-flex;
+  width: 23px;
+  height: 23px;
+}
+/* Pagination */
+.shop-pagination {
+  padding-top: 37px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.shop-pagination__list {
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.shop-pagination__list > *:not(:last-child) {
+  margin-right: 35px;
+}
+.shop-pagination__item {
+  position: relative;
+  padding: 0px 5px;
+}
+.shop-pagination__item > a.active {
+  color: #7db800;
+}
+.shop-pagination__item > a.active::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background-color: #7db800;
+  left: 0;
+  bottom: -9px;
+  height: 3px;
+  color: #7db800;
+}
