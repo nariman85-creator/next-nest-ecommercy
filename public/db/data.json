@@ -1,8 +1,57 @@
 [
   {
-    "name": "",
-    "price": "",
-    "image": "public/image/product-image/image 13.png",
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
+    "title": "",
+    "description": ""
+  },
+  {
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
+    "title": "",
+    "description": ""
+  },
+  {
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
+    "title": "",
+    "description": ""
+  },
+  {
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
+    "title": "",
+    "description": ""
+  },
+  {
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
+    "title": "",
+    "description": ""
+  },
+  {
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
+    "title": "",
+    "description": ""
+  },
+  {
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
+    "title": "",
+    "description": ""
+  },
+  {
+    "name": "Shelving",
+    "price": "375",
+    "image": "/image/product-image/image 13.png",
     "title": "",
     "description": ""
   }

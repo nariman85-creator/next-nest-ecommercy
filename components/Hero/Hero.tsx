@@ -108,7 +108,7 @@ export function Hero({ children }: HeroProp) {
                               alt=""
                               width={100}
                               height={100}
-                              className="carousel--image"
+                              className="carousel--image img"
                             />
                           </div>
                           <div className="carousel-content__item">
@@ -121,7 +121,19 @@ export function Hero({ children }: HeroProp) {
                           </div>
                         </div>
                         <div className="carousel-content__item">
-                          <Image src={image3} alt="" width={100} height={100} />
+                          <Image
+                            src={image3}
+                            alt=""
+                            width={100}
+                            height={100}
+                            style={{
+                              maxWidth: "100%",
+                              maxHeight: "100%",
+                              width: "100%",
+                              height: "100%",
+                              objectPosition: "center",
+                            }}
+                          />
                         </div>
                       </div>
                     </div>
@@ -165,7 +177,19 @@ export function Hero({ children }: HeroProp) {
                           </div>
                         </div>
                         <div className="carousel-content__item">
-                          <Image src={image3} alt="" width={100} height={100} />
+                          <Image
+                            src={image3}
+                            alt=""
+                            width={100}
+                            height={100}
+                            style={{
+                              maxWidth: "100%",
+                              maxHeight: "100%",
+                              width: "100%",
+                              height: "100%",
+                              objectPosition: "center",
+                            }}
+                          />
                         </div>
                       </div>
                     </div>
@@ -209,7 +233,19 @@ export function Hero({ children }: HeroProp) {
                           </div>
                         </div>
                         <div className="carousel-content__item">
-                          <Image src={image3} alt="" width={100} height={100} />
+                          <Image
+                            src={image3}
+                            alt=""
+                            width={100}
+                            height={100}
+                            style={{
+                              maxWidth: "100%",
+                              maxHeight: "100%",
+                              width: "100%",
+                              height: "100%",
+                              objectPosition: "center",
+                            }}
+                          />
                         </div>
                       </div>
                     </div>
@@ -253,7 +289,19 @@ export function Hero({ children }: HeroProp) {
                           </div>
                         </div>
                         <div className="carousel-content__item">
-                          <Image src={image3} alt="" width={100} height={100} />
+                          <Image
+                            src={image3}
+                            alt=""
+                            width={100}
+                            height={100}
+                            style={{
+                              maxWidth: "100%",
+                              maxHeight: "100%",
+                              width: "100%",
+                              height: "100%",
+                              objectPosition: "center",
+                            }}
+                          />
                         </div>
                       </div>
                     </div>
