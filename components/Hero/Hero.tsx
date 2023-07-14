@@ -7,6 +7,7 @@ import image2 from "../../public/image/hero/image 42.png";
 import image3 from "../../public/image/hero/image 43.png";
 import ArrowRight from "../icons/ArrowRight";
 import { ReactNode, useEffect, useState } from "react";
+import { SocialList } from "../SocialList/SocialList";
 
 interface HeroProp {
   children?: ReactNode | null;
@@ -56,31 +57,7 @@ export function Hero({ children }: HeroProp) {
           <div className="hero-content">
             <div className="hero-shop__body">
               <div className="carousel hero-slider df prel">
-                <ul className="list social-list">
-                  <li className="social-item">
-                    <Link href={"#"}>
-                      <span className="icon-box facebook"></span>
-                    </Link>
-                  </li>
-                  <li className="social-item">
-                    <Link href={"#"}>
-                      <span className="icon-box tweeter"></span>
-                    </Link>
-                  </li>
-
-                  <li className="social-item">
-                    <Link href={"#"}>
-                      <span className="icon-box youtube"></span>
-                    </Link>
-                  </li>
-
-                  <li className="social-item">
-                    {" "}
-                    <Link href={"#"}>
-                      <span className="icon-box google"></span>
-                    </Link>
-                  </li>
-                </ul>
+                <SocialList />
                 <div className="carousel-inner hero-carousel__inner">
                   <div className="carousel-item df">
                     <div className="carousel-left--side df">

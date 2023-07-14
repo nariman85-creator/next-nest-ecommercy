@@ -6,6 +6,16 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  // images: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "yandex.ru",
+  //       port: "",
+  //       pathname: "/images/search/**",
+  //     },
+  //   ],
+  // },
 };
 
 module.exports = nextConfig;
