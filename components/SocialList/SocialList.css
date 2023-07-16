@@ -1,0 +1,28 @@
+.social-item > a {
+  color: #bbbbbb;
+}
+.google {
+  background-image: url("../../public/image/svg/google.svg");
+  background-size: contain;
+  width: 16px;
+  height: 10.78px;
+  background-repeat: no-repeat;
+}
+.facebook {
+  background-image: url("../../public/image/svg/facebook.svg");
+  width: 10px;
+  height: 16.78px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #bbbbbb;
+}
+.tweeter {
+  background-image: url("../../public/image/svg/tweet.svg");
+  width: 16px;
+  height: 10.78px;
+}
+.youtube {
+  background-image: url("../../public/image/svg/youtube.svg");
+  width: 16px;
+  height: 10.78px;
+}

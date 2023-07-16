@@ -1,0 +1,40 @@
+.footer {
+  background-color: #212121;
+}
+.footer-content {
+  padding: 40px 0px 31px;
+}
+.footer-main {
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-legal__list {
+}
+.legal-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-legal__list > *:not(:last-child) {
+  margin-right: 15px;
+}
+.footer-social {
+  align-items: center;
+}
+.footer-social__list > *:first-child {
+  margin-left: 10px;
+}
+.footer-social__list > *:not(:last-child) {
+  margin-right: 10px;
+}
+.shop-copy {
+  align-items: center;
+  justify-content: center;
+  padding-top: 65px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

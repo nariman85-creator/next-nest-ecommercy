@@ -1,9 +1,13 @@
 import Link from 'next/link';
-import React from 'react'
+import { FC } from 'react';
+import './SocialList.css';
+type SocialPropsType = {
+  className?:string
+}
 
-export const SocialList = () => {
+export const SocialList:FC<SocialPropsType> = ({className}) => {
   return (
-    <ul className="list social-list">
+    <ul className={`list ${className}`}>
       <li className="social-item">
         <Link href={"#"}>
           <span className="icon-box facebook"></span>

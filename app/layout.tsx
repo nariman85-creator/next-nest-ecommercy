@@ -1,5 +1,6 @@
 "use client";
 
+import { Footer } from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import { Hero } from "@/components/Hero/Hero";
 import { Metadata } from "next";
@@ -33,6 +34,7 @@ export default function RootLayout({
           )}
 
           {children}
+          <Footer />
         </div>
       </body>
     </html>

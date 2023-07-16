@@ -57,7 +57,7 @@ export function Hero({ children }: HeroProp) {
           <div className="hero-content">
             <div className="hero-shop__body">
               <div className="carousel hero-slider df prel">
-                <SocialList />
+                <SocialList className="hero-social__list" />
                 <div className="carousel-inner hero-carousel__inner">
                   <div className="carousel-item df">
                     <div className="carousel-left--side df">
